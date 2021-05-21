@@ -8,6 +8,8 @@ import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import com.mobicare.apiREST.entity.Colaborador;
+import com.mobicare.apiREST.repository.ColaboradorRepository;
 
 import javax.validation.Valid;
 import java.util.List;
