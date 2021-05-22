@@ -25,8 +25,8 @@ public class Setor {
     @Column(nullable = false)
     private SetorType type;
 
-    @Column(nullable = false)
-    private String nomeSetor;
+   @Column(nullable = false)
+   private String nomeSetor;
 
 
 }

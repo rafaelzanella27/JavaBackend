@@ -38,6 +38,6 @@ public class ColaboradorDTO {
     private String birthDate;
 
     @Valid
-    @NotEmpty
+    //@NotEmpty
     private SetorDTO setor;
 }

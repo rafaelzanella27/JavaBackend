@@ -10,6 +10,6 @@ public enum SetorType {
     ADMINISTRATIVO ("Administrativo"),
     FINANCEIRO ("Financeiro");
 
-    private final String description;
+   private final String description;
 
 }
