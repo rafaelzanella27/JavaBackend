@@ -39,5 +39,5 @@ public class ColaboradorDTO {
 
     @Valid
     @NotEmpty
-    private List<SetorDTO> setor;
+    private SetorDTO setor;
 }

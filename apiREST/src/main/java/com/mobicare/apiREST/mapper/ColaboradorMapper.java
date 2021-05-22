@@ -10,7 +10,7 @@ public interface ColaboradorMapper {
 
     ColaboradorMapper INSTANCE = Mappers.getMapper(ColaboradorMapper.class);
 
-    @ Mapping(target = "birthDate", source = "birthDate", dateFormat = "dd-MM-yyyy")
+    @Mapping(target = "birthDate", source = "birthDate", dateFormat = "dd-MM-yyyy")
     Colaborador toModel(ColaboradorDTO colaboradorDTO);
 
     ColaboradorDTO toDTO(Colaborador colaborador);
